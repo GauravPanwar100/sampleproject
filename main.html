@@ -1,0 +1,20 @@
+<head>
+  <title>sampleproj</title>
+</head>
+<body>
+</body>
+
+
+<template name="mytemplate">
+    {{> Template.dynamic template=test}}
+</template>
+
+
+<template name="mainLayout"> 
+  {{#if loggedInUser}}     
+   {{> Template.dynamic template=main}} 
+    {{else}}
+    {{> login}} 
+    {{/if}}
+   </template>
+

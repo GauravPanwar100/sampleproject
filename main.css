@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cyan;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    background-color: white;
+}
+
+/*  input fields */
+input[type=text], input[type=password] , input[type=number], input[type=email]{
+    width: 300px;
+    margin-left: 200px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus , input[type=number]:focus, input[type=email]:focus{
+    background-color: #ddd;
+    
+    outline: none;
+}
+
+.gen{
+    margin-left: 180px;
+    
+}
+.sel
+{
+    margin-left: 150px;
+    width: 100px;
+    height: 20px;
+
+}
+
+.dob
+{
+    margin-left: 200px;
+}
+
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin-left: 500px;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    opacity: 0.9;
+}
+
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.inputfield
+{
+    margin-left: 250px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+.addmember
+{
+    margin-left: 500px;
+    background-color: #4CAF50;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.loginform
+{
+    text-align: center;
+}

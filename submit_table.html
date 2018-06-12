@@ -1,0 +1,29 @@
+<template name="showRegData">
+        <div>
+        <h4>Display Registration Data</h4>
+    </div>
+    <div><a href="/formData/all"><button type="add" value="Add" class="addmember">Add Member</button></a></div>
+<table>
+    <tr>
+        <th>Email</th>
+        <th>DOB</th>
+        <th>Gender</th>
+        <th>Education</th>
+        <th>Action</th>
+    </tr>
+            {{#each regData}}
+      <tr>
+        <td>{{Email}}</td>
+        
+        <td>{{Date_of_birth}}</td>
+        <td>{{Gender}}</td>
+        <td>{{Education_details}}</td>
+        
+        <td><button type="edit" value="edit" class="edit">Edit</button>
+        <button type="Delete" value="Delete" class="delete">Delete</button></td>
+    
+      </tr>
+      {{/each}}
+      
+</table>
+</template>
